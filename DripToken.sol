@@ -21,8 +21,8 @@ contract DripToken is ERC20 {
         return transfer(recipient, amount);
     }
 
-    function burnToken(address account, uint256 amount) public {
-        require(balanceOf(account)>= amount,"Insufficient amount to burn.");
-        _burn(account, amount);
+    function burnToken( uint256 amount) public {
+        require(balanceOf(msg.sender)>= amount,"Insufficient amount to burn.");
+        _burn(msg.sender, amount);
     }
 }

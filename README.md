@@ -1,4 +1,4 @@
-# Create a Token
+# Create a Custom Token
 The Solidity program is a simple program that demonstrates the process of creating custom tokens using the Solidity programming language.
 The purpose of this program is to serve as hands-on experience for someone who wants to understand and implement the fundamentals of token creation on the Ethereum blockchain.
 

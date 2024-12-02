@@ -19,8 +19,7 @@ After deploying the contract, you can interact with it by using the mint, transf
 
 For transfering of tokens, select the transferToken function.  You will need to provide an address and a nonnegative value to use this function, and then click the "transact" button to execute the transferring process. 
 
-For burning tokens, select the burnToken function and similarly input an address and nonnegative value. After that, click the "transact" button to begin burning tokens. Using the mint function increases the total token supply, while the burn function decreases it. You can check the total supply by clicking the "totalSupply" button.
-
+For burning tokens, select the burnToken function and input a nonnegative value. After that, click the "transact" button to begin burning. 
 
 ## Authors
 Lance Benedict F. Feticio

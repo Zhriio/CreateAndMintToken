@@ -17,7 +17,7 @@ contract DripToken is ERC20 {
     }
 
     function transferToken(address recipient, uint256 amount) external returns (bool) {
-        require(balanceOf(recipient)>= amount,"Insufficient amount to transer.");
+        require(balanceOf(msg.sender)>= amount,"Insufficient amount to transer.");
         return transfer(recipient, amount);
     }
 
